@@ -1,29 +1,25 @@
 .git
 .gitignore
 .github
+.codegraph
+.codestable
+.hf-space-staging
 
-# 本地构建产物 / 依赖缓存
 **/node_modules
-/dist
-/frontend/dist
-/backend/dist
 **/.vite
 **/.cache
+frontend/dist
+backend/dist
+dist
 
-# 本地数据/运行目录
 sql_data
 data
 logs
 *.log
 
-# 本地工具与临时文件
-.codex
-.DS_Store
-Thumbs.db
-*.swp
-*.tmp
-*.bak
-
-# 环境变量文件
 .env
 .env.*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
